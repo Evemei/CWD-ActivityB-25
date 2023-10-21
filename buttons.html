@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Font awesome -->
+    <script src="https://kit.fontawesome.com/a745e08950.js" crossorigin="anonymous"></script>
+    <!--Font awesome CDNJS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Buttons</title>
+</head>
+    <body>
+        <h1 class="center red-text">Our Cafe</h1>
+        <div class="divider"></div>
+        <div class="container">
+            <p>
+                <h4 class="center red-text">Everayne's Cafe was established on 2022. Everayne came from the owners daughters name Eviolette & Raynessa.</p></h4>
+
+            <!--Raised-->
+            <h3 class="red-text text-darken-2">Hello!</h3>
+            <a class="a btn waves-effect waves-light purple" href="navbar-sidenav.html">
+                <i class="material-icons left">house</i>
+            Home
+            </a>
+            <a class="a btn waves-effect waves-light pink" href="tables-media.html">
+                <i class="material-icons left">local_dining</i>
+            Menu
+            </a>
+            <a class="a btn waves-effect waves-light red" href="https://www.google.com/maps/place/Santa+Rosa,+Laguna/@14.2800938,121.0058213,12z/data=!3m1!4b1!4m6!3m5!1s0x3397d9b37741cb8b:0x6190465ce35ff477!8m2!3d14.2843023!4d121.0888928!16zL20vMDJkc2w0?entry=ttu">
+                <i class="material-icons right">directions_car</i>
+            Location
+        </a>
+<br><br><br><br><br>
+            
+
+            <!--Floating Action Button-->
+        <div class="container">
+            <p><h5>Cravings for sweets??? Just check our <a href="tables-media.html" target="_blank" class="red-text">♥Menu♥</a></h5></p>
+            <div>
+        </body>
+        <br><br><br>
+            <!--Floating-->
+            <a class="btn-floating btn-medium cyan waves-effect waves-light">
+            <i class="material-icons"> question_mark</i></a>Frequently Asked Question
+            
+<br><br><br>
+            <!--Flat Button-->
+            <a href="" class="waves-effect waves-teal btn-flat">Click Here</a>
+    </div>
+    
+    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        <i class="material-icons right">send</i>
+      </button>
+
+<br><br><br>
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+            <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+    </div>
+
+
+
+        <!--Jquery CDN-->
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <!-- Compiled and minified JavaScript -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            <script>
+                $(document).ready(function(){
+         // materialbox init
+                $('.materialboxed').materialbox({
+                    inDuration: 1000,
+                    outDuration: 500
+                });
+        // Slider init
+                $('.slider').slider();
+                });
+            </script>
+    
+            <script> 
+                $(document).ready(function(){
+        //Tabs Init
+                $('.tabs').tabs();
+        //Sidenav Init
+                $('.sidenav').sidenav({
+                    edge: 'right' ,
+                    inDuration: 500,
+                    outDuration: 1000
+                });
+        //Dropdown Init
+                $(".dropdown-trigger").dropdown();    
+                });
+            </script>
+            <script>
+        //Floating Action Button Init
+                $(document).ready(function(){
+            $('.fixed-action-btn').floatingActionButton();
+                });
+                </script>
+    </body>
+        </html>
